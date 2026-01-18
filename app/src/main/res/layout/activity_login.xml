@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="@drawable/bg_gradient_dark">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/person"
+            android:background="@drawable/circle_bg"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_back"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_message"
+            android:textColor="#BEBEBE"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/email_hint"
+            android:padding="12dp"
+            android:background="@drawable/bg_input_rounded"
+            android:layout_marginTop="32dp"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="12dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="#BEBEBE"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/password_hint"
+            android:padding="12dp"
+            android:background="@drawable/bg_input_rounded"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/lock"
+            android:drawableEnd="@drawable/eye_off"
+            android:drawablePadding="12dp"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="#BEBEBE" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/sign_in"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button_purple"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnGoRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/register"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button_purple"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnChangeLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_language"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

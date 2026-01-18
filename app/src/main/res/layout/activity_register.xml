@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="@drawable/bg_gradient_dark">
+
+        <!-- Illustration -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/person"
+            android:background="@drawable/circle_bg"
+            android:layout_marginTop="20dp" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_subtitle"
+            android:textColor="#BEBEBE"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/email"
+            android:padding="12dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/bg_input_rounded"
+            android:layout_marginTop="32dp"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="12dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="#BEBEBE" />
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/etRegisterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/password"
+            android:padding="12dp"
+            android:background="@drawable/bg_input_rounded"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/lock"
+            android:drawablePadding="12dp"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="#BEBEBE"
+            android:drawableEnd="@drawable/eye_off" />
+
+        <!-- Confirm Password -->
+        <EditText
+            android:id="@+id/etRegisterConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/confirm_password"
+            android:padding="12dp"
+            android:background="@drawable/bg_input_rounded"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/lock"
+            android:drawablePadding="12dp"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="#BEBEBE"
+            android:drawableEnd="@drawable/eye_off" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/register"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button_purple"
+            android:layout_marginTop="24dp"
+            app:backgroundTint="@null" />
+
+        <!-- Back to Login -->
+        <TextView
+            android:id="@+id/tvGoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_account"
+            android:textColor="#9F9FA0"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</ScrollView>

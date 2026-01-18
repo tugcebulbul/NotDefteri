@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Not Alma Uygulaması</string>
+    <string name="hello_blank_fragment">Boş fragment</string>
+    <string name="open_drawer">Menüyü aç</string>
+    <string name="close_drawer">Menüyü kapat</string>
+    <string name="welcome_back">Tekrar Hoş Geldiniz!</string>
+    <string name="welcome_message">Sizi tekrar görmek güzel</string>
+    <string name="email_hint">E-posta</string>
+    <string name="password_hint">Şifre</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="email_password_required">Email ve şifre gerekli</string>
+    <string name="login_successful">Giriş başarılı</string>
+    <string name="invalid_email_password">Geçersiz email veya şifre</string>
+    <string name="change_language">Dili Değiştir</string>
+    <string name="select_language">Dil Değiştir</string>
+    <string name="welcome_user">Hoş geldiniz 👋</string>
+    <string name="user_email_placeholder">kullanici@mail.com</string>
+    <string name="my_notes">Notlarım</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="delete_note_title">Notu çöp kutusuna taşı</string>
+    <string name="delete_note_message">Bu not çöp kutusuna taşınacak. Emin misin?</string>
+    <string name="move">Taşı</string>
+    <string name="cancel">İptal</string>
+    <string name="title_hint">Başlık</string>
+    <string name="content_hint">İçerik</string>
+    <string name="save_button">Kaydet</string>
+    <string name="notes_title">Notlar</string>
+    <string name="menu_trash">Çöp Kutusu</string>
+    <string name="menu_logout">Çıkış</string>
+    <string name="menu_my_notes">Notlarım</string>
+    <string name="register_title">Hesap Oluştur</string>
+    <string name="register_subtitle">Başlamak için kaydol</string>
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="already_have_account">Zaten hesabınız var mı? Giriş Yap</string>
+    <string name="trash">Çöp Kutusu</string>
+    <string name="all_fields_required">Tüm alanları doldurun</string>
+    <string name="password_min_length">Şifre en az 6 karakter olmalı</string>
+    <string name="passwords_not_match">Şifreler uyuşmuyor</string>
+    <string name="email_already_exists">Bu email zaten kayıtlı</string>
+    <string name="register_successful">Kayıt başarılı</string>
+    <string name="register_failed">Kayıt başarısız</string>
+    <string name="login_failed">Giriş yapılamadı</string>
+    <string name="title_empty">Başlık boş olamaz</string>
+    <string name="note_saved">Not kaydedildi</string>
+    <string name="updated_with_date">Güncellendi: %1$s</string>
+    <string name="title">Başlık</string>
+    <string name="content">İçerik</string>
+    <string name="save">Kaydet</string>
+    <string name="notu_geri_yukle">Notu Geri Yükle</string>
+    <string name="notu_geri_yukle_mesaj">Bu notu geri yüklemek istiyor musun?</string>
+    <string name="geri_yukle">Geri Yükle</string>
+    <string name="not_geri_yuklendi">Not geri yüklendi</string>
+    <string name="kalici_sil">Kalıcı Olarak Sil</string>
+    <string name="kalici_sil_mesaj">Bu not kalıcı olarak silinecek. Emin misin?</string>
+    <string name="sil">Sil</string>
+
+
+
+</resources>

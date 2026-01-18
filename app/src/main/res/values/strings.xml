@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Note Taking App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open Menu</string>
+    <string name="close_drawer">Close Menu</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="welcome_message">Welcome back, we missed you</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="email_password_required">Email and password required</string>
+    <string name="login_successful">Login successful</string>
+    <string name="invalid_email_password">Invalid email or password</string>
+    <string name="change_language">Change Language</string>
+    <string name="select_language">Change Language</string>
+    <string name="welcome_user">Welcome 👋</string>
+    <string name="user_email_placeholder">user@email.com</string>
+    <string name="my_notes">My Notes</string>
+    <string name="logout">Logout</string>
+    <string name="delete_note_title">Move Note to Trash</string>
+    <string name="delete_note_message">This note will be moved to trash. Are you sure?</string>
+    <string name="move">Move</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_hint">Title</string>
+    <string name="content_hint">Content</string>
+    <string name="save_button">Save</string>
+    <string name="notes_title">Notes</string>
+    <string name="menu_trash">Trash</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_my_notes">My Notes</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Sign up to get started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="trash">Trash</string>
+    <string name="all_fields_required">Please fill all fields</string>
+    <string name="password_min_length">Password must be at least 6 characters</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="email_already_exists">This email is already registered</string>
+    <string name="register_successful">Registration successful</string>
+    <string name="register_failed">Registration failed</string>
+    <string name="login_failed">Login failed</string>
+    <string name="title_empty">Title cannot be empty</string>
+    <string name="note_saved">Note saved</string>
+    <string name="updated_with_date">Updated: %1$s</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="save">Save</string>
+    <string name="notu_geri_yukle">Restore Note</string>
+    <string name="notu_geri_yukle_mesaj">Do you want to restore this note?</string>
+    <string name="geri_yukle">Restore</string>
+    <string name="not_geri_yuklendi">Note restored</string>
+    <string name="kalici_sil">Delete Permanently</string>
+    <string name="kalici_sil_mesaj">This note will be permanently deleted. Are you sure?</string>
+    <string name="sil">Delete</string>
+
+
+
+</resources>
